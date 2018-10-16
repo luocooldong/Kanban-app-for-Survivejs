@@ -12,6 +12,8 @@ import NoteActions from '../actions/NoteActions.js'
 import Lanes from './Lanes';
 import LaneActions from '../actions/LaneActions';
 
+// import connect from '../decorators/connect';
+
 const App = ({LaneActions, lanes}) => {
   const addLane = () => {
     LaneActions.create({
